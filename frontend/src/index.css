@@ -1,0 +1,34 @@
+#wrapper {
+	width: 500px;
+	margin: 0px auto;
+	padding: 10px;
+	text-align: justify;
+}
+
+#wrapper > div { margin-bottom: 15px; }
+#wrapper p { margin-bottom: 5px; }
+
+.date { font-weight: bold; }
+.name { font-size: 12pt; }
+
+textarea.form-control {
+	width: 100%;
+	padding: 5px 10px;
+	min-height: 200px;
+	resize: vertical;
+	text-align: justify;
+}
+
+#pag, h1 {text-align: center;}
+#pag > nav {display: inline-block;}
+
+.alert-container {
+	position: relative;
+	height: 50px;
+}
+.save-alert {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}

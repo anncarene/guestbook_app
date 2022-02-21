@@ -1,0 +1,9 @@
+.alert-container > div {
+	transition-duration: .6s;
+	transition-property: color, background-color, border-color;
+}
+.alert-transparent {
+	color: transparent !important;
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
